@@ -456,12 +456,15 @@
                 name="email"
               />
             </label>
-            <label for="comment" class="modal-label"
-              >Comment
-              <textarea name="comment" id="comment-text" ></textarea>   
-          <button type="submit">Submit</button>
+            <label for="comment" class="modal-label">Comment</label>
+              <textarea class="modal-comment-text" name="comment" id="comment-text" placeholder="Text input"></textarea>
+              <label>
+                <input type="checkbox" class="modal-accept" name="accept" value="ok"/>
+                <p class="modal-accept-text">I accept the terms and conditions of the Privacy Policy</p>
+              </label>   
+          <button class="modal-send-btn" type="submit">Send</button>
+        </div>
       </div>
-    </div>
     <script src="./modal.js"></script>
   </body>
 </html>
