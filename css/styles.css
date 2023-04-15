@@ -581,6 +581,7 @@ body {
 
 .subscribe-btn {
   position: relative;
+  left: 24px;
   width: 165px;
   height: 40px;
   background: #4d5ae5;
@@ -595,7 +596,6 @@ body {
 
 .footer-subscribe-icon {
   position: absolute;
-  right: 16px;
 }
 
 /*---------------------PORTFOLIO------------------------*/
