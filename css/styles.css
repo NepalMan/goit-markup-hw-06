@@ -766,6 +766,10 @@ body {
   border-radius: 4px;
 }
 
+.modal-input:focus + .modal-icon {
+  fill: #4d5ae5;
+}
+
 .modal-icon {
   position: absolute;
   left: 16px;
@@ -798,6 +802,15 @@ body {
   border-radius: 4px;
   resize: none;
   margin-bottom: 16px;
+  padding-left: 16px;
+  padding-top: 8px;
+}
+
+.modal-comment-text:focus {
+  color: #2e2f42;
+  background-color: #fcfcfc;
+  border: 1px solid #4d5ae5;
+  border-radius: 4px;
 }
 
 .modal-comment-text::placeholder {
@@ -806,8 +819,6 @@ body {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
-  padding-left: 16px;
-  padding-top: 8px;
 }
 
 .modal-field {
