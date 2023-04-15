@@ -437,7 +437,11 @@
           <label for="user-name" class="modal-label"
             >Name
             <span class="input-wrap">
-            <input class="modal-input" id="user-name" type="text" name="name" />
+            <input 
+              class="modal-input" 
+              id="user-name" 
+              type="text" 
+              name="name"/>
             <svg class="modal-icon" width="18px" height="18px">
                     <use href="./images/icons.svg#icon-person"></use>
                   </svg>
@@ -473,12 +477,23 @@
             </label>
             <label for="comment" class="modal-label">Comment</label>
               <textarea class="modal-comment-text" name="comment" id="comment-text" placeholder="Text input"></textarea>
-              <label class="accept">
-                <div class="modal-accept-wrap">
-                <input type="checkbox" class="modal-accept" name="accept" value="ok" id="privacy"/>
-                <p class="modal-accept-text"> <span></span> I accept the terms and conditions of the<a href="">Privacy Policy</a></p>
-              </div>
-              </label>   
+          <div class="modal-field">
+            <input
+              class="input-check visually-hidden"
+              id="privacy"
+              name="privacy"
+              type="checkbox"
+              value="true"
+            />
+            <label class="check-text" for="privacy">
+              <span>
+                <svg class="check-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-Vector"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the <a href="">Privacy Policy</a>
+            </label>
+          </div>
           <button class="modal-send-btn" type="submit">Send</button>
         </div>
       </div>
