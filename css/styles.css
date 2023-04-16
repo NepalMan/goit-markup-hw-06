@@ -806,7 +806,6 @@ body {
   border-radius: 4px;
   outline: none;
   transition: color background-color border border-radius;
-  margin-top: 4px;
 }
 
 .modal-input:focus {
@@ -844,6 +843,7 @@ body {
 }
 
 .span-name {
+  display: block;
   margin-bottom: 4px;
 }
 
@@ -860,6 +860,7 @@ body {
   margin-bottom: 16px;
   padding-left: 16px;
   padding-top: 8px;
+  outline: none;
 }
 
 .modal-comment-text:focus {
@@ -936,11 +937,6 @@ body {
 .modal-send-btn:hover,
 :focus {
   background-color: var(--btn-push-color);
-}
-
-.modal-comment-text {
-  outline: none;
-  margin-top: 4px;
 }
 
 .privacy-text {
