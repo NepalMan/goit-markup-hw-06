@@ -553,7 +553,7 @@ body {
 }
 
 .subscribe-mail {
-  margin-left: 80px;
+  margin-left: auto;
 }
 
 .footer-input {
@@ -594,6 +594,8 @@ body {
   justify-content: center;
   gap: 16px;
   margin-left: 24px;
+  cursor: pointer;
+  border: none;
 }
 
 .footer-subscribe {
@@ -802,6 +804,8 @@ body {
   padding-left: 38px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
+  outline: none;
+  transition: color background-color border border-radius;
 }
 
 .modal-input:focus {
@@ -820,6 +824,7 @@ body {
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
+  transition: fill;
 }
 
 .input-wrap {
@@ -835,6 +840,10 @@ body {
   letter-spacing: 0.01em;
   color: #8e8f99;
   margin-bottom: 8px;
+}
+
+.span-name {
+  margin-bottom: 4px;
 }
 
 .modal-send-btn {
@@ -916,6 +925,7 @@ body {
   padding: 16px 32px;
   border: none;
   border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -924,4 +934,13 @@ body {
 .modal-send-btn:hover,
 :focus {
   background-color: var(--btn-push-color);
+}
+
+.modal-comment-text {
+  outline: none;
+}
+
+.privacy-text {
+  color: #4d5ae5;
+  margin: 0;
 }
