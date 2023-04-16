@@ -806,6 +806,7 @@ body {
   border-radius: 4px;
   outline: none;
   transition: color background-color border border-radius;
+  margin-top: 4px;
 }
 
 .modal-input:focus {
@@ -888,6 +889,7 @@ body {
   color: #8e8f99;
   align-items: center;
   position: relative;
+  margin-top: 4px;
 }
 
 .check-text span {
@@ -938,6 +940,7 @@ body {
 
 .modal-comment-text {
   outline: none;
+  margin-top: 4px;
 }
 
 .privacy-text {
