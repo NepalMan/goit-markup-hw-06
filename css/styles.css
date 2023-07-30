@@ -22,9 +22,10 @@ img {
 }
 
 .container {
-  width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  /* width: 1158px;*/
+  padding-left: 16px;
+  padding-right: 16px; 
+  width: auto;
   margin-left: auto;
   margin-right: auto;
 }
@@ -243,23 +244,25 @@ body {
 /*---------------------PRINCIPLES------------------------*/
 
 .principles {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .principles-list {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: 72px 24px;
 }
 
 .principles-item {
-  width: calc((100% - 72px) / 4);
+  width: 100%;
+  position: relative;
+ 
 }
 
 .principles-item-icon {
-  display: flex;
+  display: none;
   height: 112px;
-  background-color: #f4f4fd;
   border-radius: 4px;
   justify-content: center;
   align-items: center;
@@ -272,20 +275,25 @@ body {
 }
 
 .principles-item-header {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--btn-color);
-  margin-bottom: 8px;
+  font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 111.111% */
+letter-spacing: 0.72px;
+text-transform: capitalize;
+text-align: center;
+padding-bottom: 8px;
 }
 
 .principles-item-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--subscribe-text-color);
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.32px;
+align-self: stretch;
+
 }
 
 /*---------------------PRODUCTION------------------------*/
@@ -943,3 +951,5 @@ body {
   color: #4d5ae5;
   margin: 0;
 }
+
+
