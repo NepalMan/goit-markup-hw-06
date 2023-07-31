@@ -297,8 +297,8 @@ align-self: stretch;
 }
 
 /*---------------------PRODUCTION------------------------*/
-
-.production {
+.production {display: none;}
+/* .production {
   padding-bottom: 120px;
 }
 
@@ -319,7 +319,7 @@ align-self: stretch;
 }
 
 .production-item {
-}
+} */
 
 /*---------------------TEAM------------------------*/
 
