@@ -303,8 +303,8 @@ align-self: stretch;
 
 .team {
   background-color: var(--background-color);
-  padding-top: 96px;
-  padding-bottom: 96px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .team-header {
   font-weight: 700;
@@ -317,19 +317,15 @@ align-self: stretch;
 }
 
 .team-list {
-  /* display: flex; */
+  display: flex;
   margin-top: 72px;
   gap: 24px;
 }
 
 .team-item {
-  /* background-color: var(--html-color);
+  background-color: var(--html-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); */
-    border-radius: 0px 0px 4px 4px;
-background: var(--white, #FFF);
-box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-margin-bottom: 72px;
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-item-container {
