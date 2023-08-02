@@ -97,10 +97,8 @@ text-align: inherit;}
     .customers {padding-top: 120px;
                 padding-bottom: 120px;}
 
-                .customers-list {gap: 24px;}
+    .customers-list {gap: 24px;}
 
-                .customers-item {width: calc((100% - 120px) / 6);}
-
-
-
+    .customers-item {width: calc((100% - 120px) / 6);}
+    dvv
 }
