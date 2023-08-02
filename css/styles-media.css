@@ -20,6 +20,15 @@
 
 .customers-item {width: calc((100% - 48px) / 3);}
 
+.footer-item-container {display: flex;
+flex-wrap: wrap;
+text-align: inherit;}
+
+.subscribe-mail {
+    margin-left: inherit;;
+  }
+
+.footer-logo-wrap {margin-right: 24px;}
 
 }
 

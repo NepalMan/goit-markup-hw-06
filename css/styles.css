@@ -450,8 +450,10 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 
 .footer {
   background-color: var(--btn-color);
-  padding-top: 100px;
-  padding-bottom: 100px;
+  /* padding-top: 100px;
+  padding-bottom: 100px; */
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 /* .footer-container {
@@ -487,18 +489,21 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
   letter-spacing: 0.02em;
   color: var(--background-color);
   max-width: 264px;
-  margin: 0;
+  /* margin: 0; */
 }
 
 .footer-item-container {
-  display: flex;
+  /* display: flex; */
+  text-align: center;
 }
 
 .footer-logo-wrap {
+  margin-bottom: 72px;
 }
 
 .social-media {
-  margin-left: 120px;
+  /* margin-left: 120px; */
+  margin-bottom: 72px;
 }
 
 .social-media-title {
@@ -511,7 +516,8 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 }
 
 .social-media-list {
-  display: flex;
+  /* display: flex; */
+  display: inline-flex;
   gap: 16px;
 }
 
@@ -558,6 +564,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   padding-left: 16px;
+  margin-bottom: 16px;
 }
 
 .footer-input:focus {
@@ -574,7 +581,8 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 }
 
 .subscribe-btn {
-  display: flex;
+  /* display: flex; */
+  display: inline-flex;
   width: 165px;
   height: 40px;
   background: #4d5ae5;
@@ -593,7 +601,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 }
 
 .footer-subscribe {
-  display: flex;
+  /* display: flex; */
 }
 
 /*---------------------PORTFOLIO------------------------*/
