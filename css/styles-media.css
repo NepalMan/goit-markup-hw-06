@@ -28,7 +28,8 @@ text-align: inherit;}
     margin-left: inherit;;
   }
 
-.footer-logo-wrap {margin-right: 24px;}
+.footer-logo-wrap {margin-right: 24px;
+margin-bottom: 0;}
 
 }
 
@@ -106,7 +107,8 @@ text-align: inherit;}
 
       .footer-item-container {display: flex;}
 
-      .social-media {margin-left: 120px;}
+      .social-media {margin-left: 120px;
+      margin-bottom: 0;}
 
       .social-media-list {display: flex;}
 
