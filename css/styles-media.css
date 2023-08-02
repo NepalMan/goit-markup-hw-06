@@ -100,5 +100,23 @@ text-align: inherit;}
     .customers-list {gap: 24px;}
 
     .customers-item {width: calc((100% - 120px) / 6);}
-    dvvvfevf
+
+    .footer {padding-top: 100px;
+      padding-bottom: 100px;}
+
+      .footer-item-container {display: flex;}
+
+      .social-media {margin-left: 120px;}
+
+      .social-media-list {display: flex;}
+
+      .subscribe-mail {
+        margin-left: 80px;;
+      }
+
+      .subscribe-btn {display: flex;}
+
+      .footer-subscribe {display: flex;}
+
+      .footer-logo-wrap {margin-right: 0;}
 }
