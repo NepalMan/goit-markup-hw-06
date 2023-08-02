@@ -4,6 +4,25 @@
 
 @media screen and (min-width: 768px) {
     .container {max-width: 768px;}
+
+    .title {
+      background-color: var(--btn-color);
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/title-bg-image-tab.jpg);}
+
+        @media (min-device-pixel-ratio: 2)
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+          .title {background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)
+          ),
+          url(../images/title-bg-image-tab-2x.jpg);}
+        }
+
     .principles-item {
         width: calc((100% - 24px) / 2);
     }
@@ -31,11 +50,36 @@ text-align: inherit;}
 .footer-logo-wrap {margin-right: 24px;
 margin-bottom: 0;}
 
+.footer-input {margin-bottom: 0px;
+margin-right: 24px;}
+
 }
+
+
+
+
 
 
 @media screen and (min-width: 1158px) {
     .container {max-width: 1158px;}
+
+    .title {
+      background-color: var(--btn-color);
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/title-bg-image.jpg);}
+
+        @media (min-device-pixel-ratio: 2)
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .title {background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+  ),
+  url(../images/title-bg-image-2x.jpg);}
+        
 
     .principles {padding-top: 120px;
 
@@ -116,9 +160,12 @@ margin-bottom: 0;}
         margin-left: 80px;;
       }
 
-      .subscribe-btn {display: flex;}
+      .subscribe-btn {display: flex;
+        margin-left: 24px;}
 
       .footer-subscribe {display: flex;}
 
       .footer-logo-wrap {margin-right: 0;}
+
+
 }
