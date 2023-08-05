@@ -188,13 +188,16 @@ body {
 
 .mob-menu {
   width: 100vw;
-  height: 100vw;
+  height: 100vh;
   position: fixed;
   top: 0;
   left: 0;
   background-color: #ffffff;
   z-index: 2;
   padding: 24px 24px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .mob-menu-close {
   display: block;
@@ -224,22 +227,119 @@ color: #2E2F42;
 }
 .link {
 }
-.address {
+.mob-address {
 }
 .mob-address-list {
 }
-.address-item {
+.list {
 }
-.address-link {
+
+.mob-address-number {
 }
+
+.mob-number-link {
+  color: #4D5AE5;
+  font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 111.111% */
+letter-spacing: 0.72px;
+text-transform: capitalize;
+}
+.mob-address-link {
+  color: #434455;
+  font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 120% */
+letter-spacing: 0.4px;
+}
+.link {
+}
+.mob-address-item {
+}
+.mob-social-media-list {
+  display: inline-flex;
+  gap: 16px;
+}
+.mob-social-media-item {
+  width: 40px;
+  height: 40px;
+}
+.mob-social-media-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mob-social-media-link:focus {
+  background-color: #31d0aa;
+}
+
+.mob-social-media-link:hover {
+  background-color: #31d0aa;
+}
+.mob-social-media-icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* .social-media {
+  margin-left: 120px;
+  margin-bottom: 72px;
+}
+
+
+
 .social-media-list {
+  display: flex;
+  display: inline-flex;
+  gap: 16px;
 }
+
 .social-media-item {
+  width: 40px;
+  height: 40px;
 }
+
 .social-media-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.social-media-link:hover {
+  background-color: #31d0aa;
+}
+
+.social-media-link:focus {
+  background-color: #31d0aa;
+}
+
 .social-media-icon {
+  width: 24px;
+  height: 24px;
 }
+
+.subscribe-mail {
+  margin-left: auto;
+} */
 
 /*---------------------TITLE------------------------*/
 
