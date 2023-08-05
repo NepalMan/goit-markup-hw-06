@@ -203,8 +203,13 @@ body {
   display: block;
   margin-left: auto;
   margin-bottom: 32px;
+  /* border-radius: 50%; */
+  flex-shrink: 0;
+  border:none;
+background:none;
 }
 .mob-menu-close-btn {
+  
 }
 .mob-list {
 }
@@ -223,8 +228,16 @@ letter-spacing: 0.72px;
 text-transform: capitalize;
 color: #2E2F42;
 }
+.mob-link:hover {
+  color: var(--btn-push-color);
+}
+
+.mob-link:focus {
+  color: var(--btn-push-color);
+}
 .mob-link-active {
 }
+
 .link {
 }
 .mob-address {
@@ -259,10 +272,12 @@ letter-spacing: 0.4px;
 .link {
 }
 .mob-address-item {
+  padding-top: 40px;
 }
 .mob-social-media-list {
   display: inline-flex;
-  gap: 16px;
+  gap: 56px;
+  margin-top: 48px;
 }
 .mob-social-media-item {
   width: 40px;
